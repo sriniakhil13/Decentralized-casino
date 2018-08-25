@@ -17,7 +17,7 @@ contract Bet {
    // The address of the player and => the user info   
    mapping(address => Player) public playerInfo;
    function() public payable {}
-   function Casino(uint256 _minimumBet) public {
+   function Bet(uint256 _minimumBet) public {
       owner = msg.sender;
       if(_minimumBet != 0 ) minimumBet = _minimumBet;
    }
