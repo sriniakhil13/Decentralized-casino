@@ -1,6 +1,6 @@
 pragma solidity ^0.4.11;
 
-// @author : Srini Akhil
+/// @author : Srini Akhil
 
 /// @title : Dapp 
 contract Bet {
